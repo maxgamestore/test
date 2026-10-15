@@ -5,15 +5,15 @@
    Pune-le in public/audio/ ; pozele in public/img/
    ===================================================================== */
 const CONFIG = {
-    originala: 'audio/teeth-original.mp3',
+    originala: 'audio/teeth-original.MP3',
 
     // Instrumentele (butoanele de jos). Le inlocuiesti cand ai lista finala.
     // culoare = "r,g,b" (culoarea undelor cand instrumentul e activ)
     instrumente: [
-        { id: 'voce',    nume: 'Voce',    icon: '🎤', fisier: 'audio/stems/voce.mp3',    culoare: '255,110,180' },
-        { id: 'chitara', nume: 'Chitară', icon: '🎸', fisier: 'audio/stems/chitara.mp3', culoare: '255,235,120' },
-        { id: 'bas',     nume: 'Bas',     icon: '🎸', fisier: 'audio/stems/bas.mp3',     culoare: '120,220,255' },
-        { id: 'tobe',    nume: 'Tobe',    icon: '🥁', fisier: 'audio/stems/tobe.mp3',    culoare: '190,255,140' }
+        { id: 'voce',    nume: 'Voce',    icon: '🎤', fisier: 'audio/stems/voce.MP3',    culoare: '255,110,180' },
+        { id: 'chitara', nume: 'Chitară', icon: '🎸', fisier: 'audio/stems/chitara.MP3', culoare: '255,235,120' },
+        { id: 'bas',     nume: 'Bas',     icon: '🎸', fisier: 'audio/stems/bas.MP3',     culoare: '120,220,255' },
+        { id: 'tobe',    nume: 'Tobe',    icon: '🥁', fisier: 'audio/stems/tobe.MP3',    culoare: '190,255,140' }
     ],
 
     // Volumul piesei originale cat timp ruleaza partea cu instrumentele (0..1)
